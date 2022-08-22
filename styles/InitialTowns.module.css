@@ -1,0 +1,44 @@
+.container {
+    margin-top: 2rem;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.columnNames {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    min-width: 700px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: black solid 1px;
+}
+.cell {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    min-width: 700px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: black solid 1px;
+}
+.locationText {
+    cursor: pointer;
+    width: 150px;
+}
+.locationText:hover {
+    color: rgb(0, 157, 255);
+}
+.tempText {
+    width: 40px;
+}
+.windText {
+    width: 71px;
+}
+.condiditonImg {
+    width: 64px;
+    height: 64px;
+}

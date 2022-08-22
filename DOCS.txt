@@ -1,0 +1,4 @@
+https://www.weatherapi.com/my/
+https://www.weatherapi.com/docs/#intro-location
+https://nextjs.org/docs
+https://www.svgrepo.com/svg/51526/location
