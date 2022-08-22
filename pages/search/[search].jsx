@@ -9,7 +9,7 @@ const SearchPage = ({data, search}) => {
     <Search />
     <br />
     <div className={styles.container}>
-        {data.length === 0 ? <p>No search results for "{search}"</p> : data.map(city => {
+        {data.length === 0 ? <p>No search results for &quot;{search}&quot;</p> : data.map(city => {
             return (
                 <Link href={"/forecast/" + city.name} key={city.id}>
                  <a>
